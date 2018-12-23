@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cccccc"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_to_piano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/to_piano"
+        android:text="进入钢琴"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tx_info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="70dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="由于水平有限，更多内容，请期待"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_to_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_to_piano"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="退出" />
+
+</LinearLayout>
